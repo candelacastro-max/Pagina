@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estilo Arcoiris | Peluquería y Cuidado Capilar</title>
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Vinculación con la hoja de estilos externa -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= ENCABEZADO Y NAVEGACIÓN ================= -->
+  <header>
+    <a href="#inicio" class="logo-container" aria-label="Inicio Estilo Arcoiris">
+      <svg width="42" height="42" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 52V12H88V88H48" stroke="#eb3b8c" stroke-width="5" stroke-linecap="square"/>
+        <text x="50" y="63" text-anchor="middle" fill="#eb3b8c" font-family="Oswald, sans-serif" font-size="42" font-weight="500">E</text>
+      </svg>
+      <div class="logo-text-nav">
+        <span>ESTILO</span>
+        <span>ARCOIRIS</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">&#9776;</button>
+
+    <nav>
+      <ul id="navMenu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios y Productos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Ubicación y Contacto</a></li>
+        <li><a href="#consultas" class="btn-nav">Solicitar Turno</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ================= 1. PÁGINA DE INICIO ================= -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">Peluquería &amp; Estética Capilar</div>
+      <h1>Realzá tu imagen en <span>Estilo Arcoiris</span></h1>
+      <p>
+        Especialista en cortes de pelo personalizados, baños de keratina y productos profesionales para el cuidado diario de tu cabello. Brindamos atención dedicada y seguimiento personalizado en cada visita.
+      </p>
+      <div class="hero-buttons">
+        <a href="#consultas" class="btn-primary">Reservar / Consultar</a>
+        <a href="#servicios" class="btn-outline">Ver Servicios y Productos</a>
+      </div>
+    </div>
+
+    <div class="hero-logo-showcase">
+      <div class="logo-card-frame">
+        <svg width="230" height="260" viewBox="0 0 240 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M55 110V30H185V160H115" stroke="#eb3b8c" stroke-width="5" stroke-linecap="square"/>
+          <text x="120" y="116" text-anchor="middle" fill="#eb3b8c" font-family="Oswald, sans-serif" font-size="56" font-weight="400">E</text>
+          <text x="120" y="212" text-anchor="middle" fill="#eb3b8c" font-family="Oswald, sans-serif" font-size="36" letter-spacing="10" font-weight="400">ESTILO</text>
+          <text x="120" y="242" text-anchor="middle" fill="#eb3b8c" font-family="Montserrat, sans-serif" font-size="15" letter-spacing="8" font-weight="600">ARCOIRIS</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 2. PRESENTACIÓN DE LA EMPRESA ================= -->
+  <section id="nosotros" class="about-section">
+    <div class="section-header">
+      <span>Nuestra Esencia</span>
+      <h2>Sobre Estilo Arcoiris</h2>
+      <p>Cuidado capilar profesional con calidez humana y seguimiento personalizado.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>Tu cabello en manos expertas</h3>
+        <p>
+          En <strong>Estilo Arcoiris</strong> nos dedicamos a transformar y cuidar la salud capilar de cada persona que nos visita. Combinamos técnicas actuales de corte y tratamientos reparadores con un asesoramiento cercano.
+        </p>
+        <p>
+          Llevamos un <strong>historial personalizado de cada cliente</strong> para recordar los trabajos realizados, tratamientos aplicados y productos recomendados, garantizando resultados duraderos y a medida.
+        </p>
+
+        <div class="about-features">
+          <div class="feature-box">
+            <strong>Atención Personalizada</strong>
+            <small>Diagnóstico previo según tu tipo de cabello.</small>
+          </div>
+          <div class="feature-box">
+            <strong>Seguimiento de Clientes</strong>
+            <small>Registro de tratamientos y fechas de retoque.</small>
+          </div>
+          <div class="feature-box">
+            <strong>Insumos de Calidad</strong>
+            <small>Fórmulas nutritivas y libres de formol agresivo.</small>
+          </div>
+          <div class="feature-box">
+            <strong>Asesoramiento Post-Salón</strong>
+            <small>Productos seleccionados para mantener tu look.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80" alt="Interior del salón Estilo Arcoiris" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 3. SERVICIOS Y PRODUCTOS OFRECIDOS ================= -->
+  <section id="servicios">
+    <div class="section-header">
+      <span>Lo que hacemos</span>
+      <h2>Servicios y Productos</h2>
+      <p>Elegí el tratamiento o producto ideal para vos y solicitá tu turno o consulta en un clic.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Servicio</span>
+          <h3>Corte de Pelo</h3>
+          <p>Cortes modernos y clásicos adaptados a la forma de tu rostro y estilo personal.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">Consultar valor</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Corte de Pelo')">Solicitar</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Tratamiento Estrella</span>
+          <h3>Baño de Keratina</h3>
+          <p>Reconstrucción profunda de la fibra capilar. Elimina el frizz, aporta brillo espejo, suavidad extrema y facilita el peinado diario.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">Consultar valor</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Baño de Keratina')">Solicitar</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Servicio</span>
+          <h3>Nutrición y Botox Capilar</h3>
+          <p>Hidratación intensiva para cabellos secos, teñidos o dañados por el calor.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">Consultar valor</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Nutrición y Botox Capilar')">Solicitar</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Producto Capilar</span>
+          <h3>Kit Post-Keratina (Shampoo + Acondicionador)</h3>
+          <p>Fórmula sin sal diseñada para prolongar el efecto del baño de keratina y mantener la hidratación natural en casa.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">En stock</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Kit Post-Keratina')">Encargar</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Producto Capilar</span>
+          <h3>Máscara Nutritiva Intensiva</h3>
+          <p>Baño de crema profesional con aceites esenciales y keratina hidrolizada para aplicación semanal en el hogar.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">En stock</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Máscara Nutritiva')">Encargar</button>
+        </div>
+      </article>
+
+      <article class="service-card">
+        <div>
+          <span class="card-tag">Producto Capilar</span>
+          <h3>Sérum Reparador de Puntas</h3>
+          <p>Protector térmico y sellador de cutículas que controla el encrespamiento y deja un acabado sedoso sin engrasar.</p>
+        </div>
+        <div class="card-footer">
+          <span class="price">En stock</span>
+          <button class="btn-card" onclick="seleccionarOpcion('Sérum Reparador')">Encargar</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= 4. GALERÍA DE IMÁGENES ================= -->
+  <section id="galeria" class="gallery-section">
+    <div class="section-header">
+      <span>Nuestros Trabajos</span>
+      <h2>Galería de Resultados</h2>
+      <p>Mirá algunos de los cambios de look, tratamientos de keratina y productos disponibles en nuestro salón.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80" alt="Baño de keratina y brillo" />
+        <div class="gallery-overlay"><span>Baño de Keratina &amp; Brillo</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=80" alt="Corte de pelo femenino" />
+        <div class="gallery-overlay"><span>Corte Personalizado</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=700&q=80" alt="Tratamiento de hidratación" />
+        <div class="gallery-overlay"><span>Nutrición Profunda</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=700&q=80" alt="Productos profesionales para el cabello" />
+        <div class="gallery-overlay"><span>Línea de Productos Capilares</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=700&q=80" alt="Peinado y terminación" />
+        <div class="gallery-overlay"><span>Brushing y Styling</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80" alt="Corte moderno" />
+        <div class="gallery-overlay"><span>Cortes Unisex</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 5. FORMULARIO Y 6. CONTACTO / UBICACIÓN / REDES ================= -->
+  <section id="consultas">
+    <div class="section-header">
+      <span>Comunicate con nosotros</span>
+      <h2>Turnos, Consultas y Ubicación</h2>
+      <p>Completá tus datos para agendar tu atención o consultar por nuestros productos.</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <!-- FORMULARIO DE CONSULTAS / SOLICITUDES -->
+      <div class="form-box">
+        <h3>Formulario de Solicitud</h3>
+        <p>Registrá tus datos para agilizar tu ficha de atención y recibir confirmación.</p>
+
+        <form id="clientForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej: Camila" required />
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido *</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Ej: Gómez" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="telefono">Número de Teléfono / WhatsApp *</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="Ej: 3541 123456" required />
+            </div>
+            <div class="form-group">
+              <label for="servicio">Servicio o Producto de Interés *</label>
+              <select id="servicio" name="servicio" required>
+                <option value="">-- Seleccionar una opción --</option>
+                <option value="Corte de Pelo">Servicio: Corte de Pelo</option>
+                <option value="Baño de Keratina">Servicio: Baño de Keratina</option>
+                <option value="Nutrición y Botox Capilar">Servicio: Nutrición y Botox Capilar</option>
+                <option value="Kit Post-Keratina">Producto: Kit Post-Keratina</option>
+                <option value="Máscara Nutritiva">Producto: Máscara Nutritiva</option>
+                <option value="Sérum Reparador">Producto: Sérum Reparador</option>
+                <option value="Consulta General">Otra consulta</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Detalle o preferencia de día/horario</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos qué día te gustaría venir o si querés consultar por algún producto..."></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary btn-full">Enviar Solicitud</button>
+        </form>
+
+        <div id="confirmationBox" class="confirmation-box"></div>
+      </div>
+
+      <!-- INFORMACIÓN DE CONTACTO, HORARIOS, REDES Y UBICACIÓN -->
+      <div id="contacto" class="info-box">
+        <h3>Información del Salón</h3>
+
+        <ul class="info-list">
+          <li>
+            <strong>Ubicación</strong>
+            <span>Los gigantes 890</span>
+          </li>
+          <li>
+            <strong>Horarios de Atención</strong>
+            <span>Lunes a Viernes de 10 a 18 hs.</span>
+          </li>
+          <li>
+            <strong>Teléfono / WhatsApp</strong>
+            <span>+54 9 3541 520002</span>
+          </li>
+        </ul>
+
+       <strong class="social-title">Seguinos en Instagram</strong>
+<p style="color: var(--text-muted); font-size: 0.92rem; margin: 0.5rem 0 1rem;">
+  Mirá nuestros últimos cortes 
+  <strong style="color: var(--primary-pink);">@estilo.arcoiris.ok</strong>
+</p>
+<div class="social-links">
+  <a href="https://instagram.com/estilo.arcoiris.ok" target="_blank" rel="noopener" class="social-btn">Ver perfil en Instagram</a>
+</div>
+
+
+  </section>
+
+  <!-- ================= PIE DE PÁGINA ================= -->
+  <footer>
+    <p><strong>ESTILO ARCOIRIS</strong> &copy; 2026 — Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ================= INTERACTIVIDAD JAVASCRIPT ================= -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('#navMenu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+      });
+    });
+
+    function seleccionarOpcion(opcion) {
+      const select = document.getElementById('servicio');
+      select.value = opcion;
+      document.getElementById('consultas').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('nombre').focus();
+    }
+
+    const clientForm = document.getElementById('clientForm');
+    const confirmationBox = document.getElementById('confirmationBox');
+
+    clientForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const nombre = document.getElementById('nombre').value.trim();
+      const apellido = document.getElementById('apellido').value.trim();
+      const telefono = document.getElementById('telefono').value.trim();
+      const servicio = document.getElementById('servicio').value;
+      const mensaje = document.getElementById('mensaje').value.trim();
+
+      confirmationBox.style.display = 'block';
+      confirmationBox.innerHTML = `
+        <h4>¡Solicitud registrada con éxito!</h4>
+        <p><strong>Cliente:</strong> ${nombre} ${apellido}</p>
+        <p><strong>Teléfono:</strong> ${telefono}</p>
+        <p><strong>Motivo:</strong> ${servicio}</p>
+        ${mensaje ? `<p><strong>Detalle:</strong> ${mensaje}</p>` : ''}
+        <p class="confirmation-note">Nos comunicaremos a la brevedad para confirmar tu atención en <strong>Estilo Arcoiris</strong>.</p>
+      `;
+
+      clientForm.reset();
+    });
+  </script>
+</body>
+</html>
